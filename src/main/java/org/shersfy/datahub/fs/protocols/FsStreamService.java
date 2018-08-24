@@ -15,6 +15,8 @@ public interface FsStreamService extends RPCProtocol{
     
     BooleanWritable open(Text path);
     
+    void write(BytesWritable bytes);
+    
     IntWritable read(BytesWritable bytes);
     
     void closeInputStream();
