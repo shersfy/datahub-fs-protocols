@@ -1,5 +1,5 @@
 package org.shersfy.datahub.fs.protocols;
 
-public interface RpcProtocol {
+public interface RPCProtocol {
     long versionID = 1;
 }
